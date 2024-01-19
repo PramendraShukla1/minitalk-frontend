@@ -11,7 +11,7 @@ import FrenchQuestions from "./pages/addQuestions/FrenchQuestions";
 import FrenchTest from "./pages/SolveTests/FrenchTest";
 import MarksPage from "./pages/MarksPage";
 
-axios.defaults.baseURL = "http://localhost:4002";
+axios.defaults.baseURL = "https://mnitalk-backend.onrender.com";
 axios.defaults.withCredentials = true;
 
 
